@@ -22,6 +22,7 @@ const ProjectMeta = (props: Props) => {
         <Link
           href={content?.href as string}
           target="_blank"
+          rel="noreferrer"
           className="text-overflow line-clamp-1 hover:underline hover:underline-offset-4 cursor-pointer"
         >
           {content?.name}

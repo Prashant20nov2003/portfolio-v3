@@ -1,11 +1,15 @@
 import { satoshiBold } from "@/components/utils/font";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
     <nav className="h-[10vh] flex items-center">
-      <p className={`${satoshiBold.className} text-2xl tracking-[4px]`}>
+      <Link
+        href="/"
+        className={`${satoshiBold.className} text-2xl tracking-[4px]`}
+      >
         :&#x2f;&#x2f;m
-      </p>
+      </Link>
     </nav>
   );
 };

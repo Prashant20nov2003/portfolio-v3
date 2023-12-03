@@ -14,7 +14,9 @@ type ProjectInfo = {
   img: string;
   stack: string[];
   source: URL;
+  figma: URL;
   demo: URL;
+  youtubeID: string;
   video: string;
   title: string;
   paragraphs: {
@@ -40,6 +42,11 @@ projectInfo.set("bookmark", {
     name: "m-oniqu3/bookmark-it",
     href: "https://github.com/m-oniqu3/bookmark-it",
   },
+  youtubeID: "smUyMFGcsPg",
+  figma: {
+    name: "monique/bookmark-it",
+    href: "https://www.figma.com/file/0eYLSHNLF34xLK4aJSli4M/Bookmarked?type=design&node-id=0%3A1&mode=design&t=d4ZuoMXJO1xTGwsv-1",
+  },
   demo: { name: "bookmark-it", href: "https://bookmark-it.vercel.app/" },
   title: "An online bookshelf",
   paragraphs: {
@@ -62,6 +69,11 @@ projectInfo.set("natura", {
     name: "m-oniqu3/gym-natura",
     href: "https://github.com/m-oniqu3/gym-natura",
   },
+  youtubeID: "dbOIXADh1uE",
+  figma: {
+    name: "monique/gym-natura",
+    href: "https://www.figma.com/file/w8EGlRw6pVzu6h1xSs16wh/natura?type=design&node-id=0%3A1&mode=design&t=wDxd2fOecVUCCnRm-1",
+  },
   demo: { name: "gym-natura", href: "https://gym-natura.vercel.app/" },
   title: "A women-only gym",
   paragraphs: {
@@ -79,6 +91,11 @@ projectInfo.set("movie-memory", {
   source: {
     name: "m-oniqu3/movie-memory",
     href: "https://github.com/m-oniqu3/movie-memory",
+  },
+  youtubeID: "lTX5XHnTmL4",
+  figma: {
+    name: "monique/movie-memory",
+    href: "https://www.figma.com/file/XVgFo6tAEbgZOqZkaOthPR/movie-memory?type=design&node-id=0%3A1&mode=design&t=gl7VC7YPXAsIOLWs-1",
   },
   demo: {
     name: "movie-memory",
@@ -98,6 +115,7 @@ projectInfo.set("finest-and-co", {
   icon: <FaCouch className="my-3" size={size} />,
   img: "/finestandco.webp",
   video: "/finest-recording.mov",
+  youtubeID: "Dw-TBnok5s8",
   stack: ["React JS", "Redux Toolkit", "Firebase"],
   source: {
     name: "m-oniqu3/finest-and-co",
@@ -106,6 +124,10 @@ projectInfo.set("finest-and-co", {
   demo: {
     name: "finest-and-co",
     href: "https://finest-co-furniture.vercel.app/",
+  },
+  figma: {
+    name: "monique/finest-and-co",
+    href: "https://www.figma.com/file/2kMItgEasTn7cs5DXdvXwX/finest%26co?type=design&node-id=0%3A1&mode=design&t=zID114wL12xNyR0R-1",
   },
   title: "A furniture store",
   paragraphs: {

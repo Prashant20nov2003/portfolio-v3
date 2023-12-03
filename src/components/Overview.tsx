@@ -18,7 +18,7 @@ const Overview = () => {
           Hi, I&rsquo;m Monique.
         </h1>
         <p
-          className={`${medium} tracking-wide text-[1.2rem] from-white  to-blue-300 bg-gradient-to-r bg-clip-text text-transparent md:text-2xl`}
+          className={`${medium} tracking-wide text-[1.2rem] from-white  to-emerald-800 bg-gradient-to-r bg-clip-text text-transparent md:text-2xl`}
         >
           {title}
         </p>
